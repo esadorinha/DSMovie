@@ -63,7 +63,7 @@ nav a {
 
 .dsmovie-card {
     background-color: var(--white);
-    width: 360px;
+    width: 100%;
     border-radius: 8px;
 }
 
@@ -76,8 +76,9 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     color: var(--text-grey);
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
 }
 
 .dsmovie-card-description h3 {
